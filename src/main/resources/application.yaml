@@ -1,0 +1,18 @@
+spring.datasource:
+  url: jdbc:postgresql://localhost:5432/camunda?autoReconnect=true
+
+  username: camunda
+  password: ag
+  driver-class-name: org.postgresql.Driver
+spring.h2.console.enabled: true
+camunda.bpm:
+  admin-user:
+    id: demo
+    password: demo
+    firstName: Demo
+  filter:
+    create: All tasks
+server.port: 8080
+server:
+  servlet:
+    context-path: /camunda-all
