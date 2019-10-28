@@ -4,7 +4,6 @@ spring.datasource:
   username: camunda
   password: ag
   driver-class-name: org.postgresql.Driver
-spring.h2.console.enabled: true
 camunda.bpm:
   admin-user:
     id: demo
